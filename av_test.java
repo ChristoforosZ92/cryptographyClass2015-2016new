@@ -36,7 +36,6 @@ public class Testjava {
 			for(int i=0; i < n-1; i++){
 				temp = r.nextInt(30);
 				if(temp == 0) temp = temp + 1;
-				System.out.println("temp" + (i+1) + "=" + temp);
 				xi[i] = (long) Math.pow(g, temp);
 				System.out.println("x" + (i+1) + "=" + xi[i]);
 			}
