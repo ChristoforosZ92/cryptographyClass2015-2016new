@@ -45,6 +45,7 @@ public class Testjava {
 			//min mporei na graftei os 2 se kapoia dunami
 			temp = r.nextInt(30);
 			xi[4] = temp * 3;
+			System.out.println("r" + 5 + "=" + xi[4]);
 		}
 		long c;
 		long rand;
